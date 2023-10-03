@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    padding: 1rem;
+}
+.card{
+    padding: 1rem;
+    color: white;
+    min-height: 70vh;
+    width: 40%;
+    background-color: #222;
+    overflow: scroll;
+    border-radius: 0.6rem;
+}
+.card-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+.btn{
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    margin-left: 1rem;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: aqua;
+    color:#333;
+}
+.btn:hover{
+    background-color: green;
+
+}
+.li-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    transition: all 0.3s;
+  }
+.li-style:hover{
+   background-color: #111;
+} 
+.bg-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+    border-radius: 0.6rem;
+   
+}
+.bg-delete{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    border-radius: 0.6rem;
+}
